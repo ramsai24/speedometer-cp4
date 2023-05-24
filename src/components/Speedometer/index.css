@@ -8,8 +8,38 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
+  padding: 20px;
 }
 
 .img {
   height: 400px;
+}
+
+.btn-container {
+  display: flex;
+  padding-top: 30px;
+}
+
+.increment {
+  margin: 25px;
+  background-color: #0b69ff;
+  height: 35px;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 6px;
+  border: 0px none;
+  cursor: pointer;
+  outline: none;
+}
+
+.decrement {
+  margin: 25px;
+  background-color: transparent;
+  height: 35px;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #cbd5e1;
+  cursor: pointer;
+  outline: none;
 }
