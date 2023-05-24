@@ -18,6 +18,7 @@ class Speedometer extends Component {
         />
         <h1>Speed is {speed}mph</h1>
         <p>Min Limit is 0mph,Max limit is 200mph</p>
+
         <div>
           <button type="button">Accelrate</button>
           <button type="button">Apply Brake</button>
